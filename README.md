@@ -3,7 +3,7 @@
 > SaaS de gestão de leads para clínicas com IA integrada, autenticação JWT e dashboard em tempo real.
 > Projeto construído para simular ambiente de produção real.
 
-🔗 **[Acessar Demo ao Vivo](https://seu-link-vercel.app)** ← COLE AQUI O LINK DO VERCEL
+🔗 **[Acessar Demo ao Vivo](https://novacrm-omega.vercel.app/)
 
 ![Stack](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 ![Node](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
