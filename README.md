@@ -1,88 +1,62 @@
-# NovaCRM
+# NovaCRM 🚀
 
-> SaaS de gestão de leads para clínicas com IA integrada, autenticação JWT e dashboard em tempo real.
-> Projeto construído para simular ambiente de produção real.
+Sistema Full Stack de gestão de leads para clínicas e negócios locais.  
+Organiza contatos, acompanha oportunidades e melhora conversão comercial.
 
-🔗 **[Acessar Demo ao Vivo](https://novacrm-omega.vercel.app/)
-
-![Stack](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![Node](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
-![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white)
+## 🔗 Demo Online
+https://novacrm-omega.vercel.app/
 
 ---
 
-## Screenshots
+## 📸 Preview
 
-![Dashboard](assets/dashboard.png)
-![Gestão de Leads](assets/leads.png)
-![Desktop](assets/desktop.png)
+### Landing Page
+![Landing](./assets/desktop.png)
 
----
+### Dashboard
+![Dashboard](./assets/dashboard.png)
 
-## Funcionalidades
-
-- Login seguro com autenticação JWT
-- Dashboard com métricas em tempo real e gráficos
-- CRUD completo de leads com filtro, busca e status
-- Link direto para WhatsApp por lead
-- IA Comercial — resposta automática, reescrita profissional e resumo diário
-- Landing page de conversão
+### Gestão de Leads
+![Leads](./assets/leads.png)
 
 ---
 
-## Stack
+## ✨ Funcionalidades
 
-| Camada | Tecnologia |
-|---|---|
-| Frontend | React + Vite + Tailwind CSS |
-| Gráficos | Recharts |
-| Ícones | Lucide React |
-| Backend | Node.js + Express |
-| Autenticação | JWT + bcryptjs |
-| Banco de dados | PostgreSQL |
-| IA | OpenAI GPT-4o-mini |
-| Deploy | Vercel + Railway |
+- Landing page comercial
+- Dashboard com métricas
+- Gestão de leads
+- Pipeline de status
+- Interface responsiva
+- Painel administrativo
+- Deploy em produção
 
 ---
 
-## Rodar localmente
+## 🛠️ Stack
 
-```bash
-# Backend
-cd server
-npm install
-npm run dev
-
-# Frontend (novo terminal)
-cd client
-npm install
-npm run dev
-```
-
-## Variáveis de ambiente
-
-Crie `server/.env` com:
-PORT=3001
-DB_HOST=localhost
-DB_PORT=5432
-DB_NAME=novacrm
-DB_USER=postgres
-DB_PASSWORD=sua_senha
-JWT_SECRET=seu_secret
-OPENAI_API_KEY=sua_key
+React • JavaScript • Node.js • Express • PostgreSQL • CSS • Vercel
 
 ---
 
-## Estrutura do projeto
-novacrm/
-├── client/          # React + Tailwind
-│   └── src/
-│       ├── components/
-│       ├── pages/
-│       └── services/
-└── server/          # Node + Express
-├── controllers/
-├── routes/
-├── middleware/
-└── db/
+## 🎯 Objetivo
+
+Resolver um problema real: empresas perdem clientes por falta de organização e follow-up.
+
+---
+
+## 🚀 Próximas Melhorias
+
+- Login JWT
+- Integração WhatsApp
+- IA comercial
+- Multiempresa SaaS
+- Dark mode avançado
+- Exportação CSV
+
+---
+
+## 👨‍💻 Autor
+
+Lucas Silva  
+LinkedIn: https://linkedin.com/in/olucas-silvaa
