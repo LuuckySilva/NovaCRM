@@ -1,7 +1,7 @@
 import dotenv from 'dotenv'
 import pg from 'pg'
 
-dotenv.config({ path: 'C:/Users/lukas/novacrm/server/.env' })
+dotenv.config()
 
 const { Pool } = pg
 
